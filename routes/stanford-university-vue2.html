@@ -8,9 +8,9 @@
 <!-- <![endif]-->
 
 <head>
-  <script crossorigin="anonymous" src="https://unpkg.com/vue@next"></script>
+  <script src="https://unpkg.com/vue"></script>
   <!-- <script src="https://unpkg.com/vue@3.2.12"></script> -->
-  <script src="https://my-waste-info.onrender.com/waste-widget-lib.js"></script>
+  <script src="https://my-waste-info.onrender.com/waste-widget.js"></script>
   <!-- <script src="../../dist/waste-widget.js"></script> -->
   <!-- <script> register()</script> -->
   <!-- <script src="my-lib.umd.js"></script> -->
@@ -293,11 +293,13 @@
                             <div class="field field-name-body field-type-text-with-summary field-label-hidden">
                               <div class="field-items">
                                 <div class="field-item even" property="content:encoded">
-                                  <p>Ready to reduce waste?  Need to learn more before you can waste less?  We have many
+                                  <p>Ready to reduce waste?  Need to learn more before you can waste less?  We have
+                                    many
                                     resources for our community to reduce waste, recycle and compost more and be on the
                                     road to Zero Waste!</p>
                                 </div>
-                                <waste-widget>
+
+                                <waste-widget user-provided-styles="border: 1px solid black; max-width: 100%">
                                 </waste-widget>
                               </div>
                             </div>
