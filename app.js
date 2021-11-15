@@ -6,9 +6,9 @@ var logger = require('morgan');
 
 // foobar
 
-var indexRouter = require('./routes/index');
+// var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-const stanfordUniversityRouter = require('./routes/stanford-university');
+// const stanfordUniversityRouter = require('./routes/stanford-university');
 
 var app = express();
 
@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
+// app.use('/', indexRouter);
 app.use('/users', usersRouter);
 // app.use('/stanford-university', stanfordUniversityRouter)
 
