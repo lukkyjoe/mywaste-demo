@@ -437,6 +437,15 @@
     </div>
   </div>
   <!-- /#global-footer -->
+  <script>
+    document.querySelector("waste-widget")
+      .shadowRoot.querySelector(".multiselect")
+      .setAttribute("style", "border: 1px solid black")
+
+    document.querySelector("waste-widget")
+      .shadowRoot.querySelector('.multiselect__placeholder')
+      .setAttribute("style", "color: blue")
+  </script>
 </body>
 
 </html>
